@@ -27,7 +27,7 @@ body {
     }
 }
 
-.main {
+main {
   display: block;
   width: 400px;
   margin: 0 auto 0;
