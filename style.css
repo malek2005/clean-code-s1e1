@@ -1,4 +1,7 @@
 /* Basic Style */
+* {
+  box-sizing: border-box;
+}
 body {
   background-color: #f8f8f8;
   color: #333;
@@ -37,10 +40,12 @@ ul {
   margin: 0;
   padding: 0px;
 }
-li, h3 {
+li, 
+h3 {
   list-style: none;
 }
-input,button {
+input,
+button {
   outline: none;
 }
 button {
@@ -129,7 +134,7 @@ li > button.delete:hover {
 }
 
 /* Completed */
-#todo-list label {
+#done-list label {
   text-decoration: line-through
   color: #888;
 }
