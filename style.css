@@ -18,9 +18,12 @@ body {
 }
 
 @media (max-width:768px) {
-  .header { text-align: center;
-  }
+
+  .header 
+    { text-align: center;
+    }
 }
+
 .main {
   display: block;
   width: 400px;
@@ -126,7 +129,7 @@ li > button.delete:hover {
 }
 
 /* Completed */
-ul#todo-list label {
+#todo-list label {
   text-decoration: line-through
   color: #888;
 }
